@@ -8,7 +8,7 @@
 * 后端
   * 语言 java
   * 编译器 intellij idea
-  * 自动化 gradle
+  * 自动化 maven
   * web框架 spring boot
 * 前端
   * 框架 react
