@@ -20,6 +20,11 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping(method = RequestMethod.GET, value = "/login")
+    public String getLogin() {
+        return "login";
+    }
+
     @RequestMapping("/scores")
     @ResponseBody
     public List<Score> getScores() {
