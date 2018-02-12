@@ -1,5 +1,7 @@
-package com.wuzhi.sprout;
+package com.wuzhi.sprout.service.management;
 
+import com.wuzhi.sprout.model.management.SysUser;
+import com.wuzhi.sprout.repository.management.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

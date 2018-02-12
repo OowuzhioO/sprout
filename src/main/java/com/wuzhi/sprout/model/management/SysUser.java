@@ -1,4 +1,4 @@
-package com.wuzhi.sprout;
+package com.wuzhi.sprout.model.management;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,4 +1,4 @@
-package com.wuzhi.sprout;
+package com.wuzhi.sprout.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

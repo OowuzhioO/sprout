@@ -1,5 +1,7 @@
-package com.wuzhi.sprout;
+package com.wuzhi.sprout.controller;
 
+import com.wuzhi.sprout.model.Score;
+import com.wuzhi.sprout.repository.ScoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,7 +24,7 @@ public class MainController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/login")
     public String getLogin() {
-        return "login";
+        return "/main/resources/templates/management/login.html";
     }
 
     @RequestMapping("/scores")
